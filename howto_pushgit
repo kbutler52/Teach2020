@@ -1,0 +1,11 @@
+
+make directory
+move loopNumber > directory
+cd directory
+ls
+mv loopNumber.py directory
+cd directory
+ls
+cd to home
+mv loopNumber.py../tech2020/
+
