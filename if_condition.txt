@@ -1,0 +1,30 @@
+
+if Statement 05-09-2020
+if Statement is the most simple decision making statement.
+It is used to decide whether a certain statement or block of statement
+will be executed or not. For example if a certain condtion is true then
+a block of statement is executed otherwise not.
+Syntax for a if statement:
+if condtion:
+    #Stateement to execute if
+    #condition is true
+
+
+Python uses indentation to identify a block. So the block under an if statement
+will be identified as shown below:
+
+if condtion:
+    statement1
+statement2
+
+#Here if the condtion is true, if block
+#will consider only statement1 to be inside
+#its block
+
+#python program to illustrate If statement
+
+i=0
+if i> 10:
+    print("10 is less that 15")
+print("I am Not in if")
+
