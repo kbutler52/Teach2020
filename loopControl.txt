@@ -1,0 +1,21 @@
+
+05-09-2020
+Loop control statements change execution from
+it's normal sequence.  When executio leaves a scope,
+all automatic objects that were created in that scope
+are destroyed. Python supports the following control
+statements.
+
+Contrinue Statement- it returns the control to the
+beginning of the loop.
+
+Example:
+
+#prints all letters except 'e' and 's'
+
+for letters in 'geeksforgeeks':
+    if letter=='e' or  letter == 's':
+        continue
+    print'Current Letter :',letter
+    var = 10
+
