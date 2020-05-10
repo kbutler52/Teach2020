@@ -1,0 +1,26 @@
+
+05-09-2020
+Python provides three types of loops to handle
+looping requirements.  While a;; the ways provide similar
+basic functionality, they differ in their syntax and condition
+checking time.
+
+The while loop:
+In Python, while loop is used to execute a block of statements
+repeatedly until a given condition is satisfied. And when the
+condition becomes false, the line immediately after the loop in progran
+is executed.
+
+Syntax:
+
+while expression:
+    statement(s)
+
+    Example:
+#python program to issustrate
+#while loop
+count = 0
+    while (count < 3):
+        count=count+1
+        print("Hello Geek")
+
