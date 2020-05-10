@@ -1,0 +1,12 @@
+
+05-10-2020
+Pass statement- we use pass statements to write empty
+loops. pass is used for empty control statement,
+function and classes.
+
+Example:
+#An empty loop
+for letter in 'geekfor gookds':
+    pass
+print('Last Letter:', letter
+
