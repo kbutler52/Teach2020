@@ -1,0 +1,35 @@
+
+05-09-2020
+a nested if is an if statement that is the target of another if
+statement. Nested if statements means an if statement inside another
+of statement. Yes, Python allows us to nest if statements within
+if statements. Example we can place an if statement inside another
+if statement.
+
+Syntax:
+if (Condition1):
+    #Executes when condition1 is true
+    if(condition2):
+        #Executes when conition2 is true
+    #if block end here
+#if block is end here
+
+Example of a nested if statement
+
+#python program to illustrate nested If statement
+#!/usr/bin/python
+i=0
+if(i==10):
+    #First if statement
+    if (i <15):
+        print("i is smaller than 15")
+        # Nested- if statement
+        # Will only be excuted if statement above
+        # if is true
+        if (i < 12):
+            print("i is smaller than 12 too")
+        else:
+            print("i is greater that 15")
+
+
+
