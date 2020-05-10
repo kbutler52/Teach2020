@@ -8,5 +8,5 @@ Example:
 #An empty loop
 for letter in 'geekfor gookds':
     pass
-print('Last Letter:', letter
+print'Last Letter:', letter
 
