@@ -1,0 +1,12 @@
+05-10-2020
+Break statement- it brings control of the loop
+
+for letter in 'geeksforgeeks':
+
+#break tje loop as soon as it sees 'e'
+#or 's'
+    if letter == 'e' or letter =='s':
+        break
+
+print 'Current Letter :', letter
+
