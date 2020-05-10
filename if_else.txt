@@ -1,0 +1,32 @@
+
+05-09-2020
+the if statement alone tells us that if a condtion is true it will
+execute a block of statement and if the condition is false it won't.
+But what if we wnat to do something else if the condtion is false?
+Here comes the else statement. We can ise the else statement with if
+statement to execute a block of code when the condition is false.
+
+Syntax:
+
+if ( condition):
+    #Execute this block if
+    #condition is true
+else:
+    #Execute this block if
+    #condition is false
+
+if/else example:
+
+#python program to issustrate If else statement
+#!/usr/bin/python
+
+i=20;
+if (i<15):
+    print("i is smaller that 15")
+    print("i'm in if block")
+else:
+    print("i is greater that 15")
+    print("I'm in else block")
+print("i'm not in if and not in else block")
+
+
