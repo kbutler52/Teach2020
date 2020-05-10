@@ -6,7 +6,7 @@ function and classes.
 
 Example:
 #An empty loop
-for letter in 'geekfor gookds':
+for letter in 'geeksforgeeks':
     pass
 print'Last Letter:', letter
 
