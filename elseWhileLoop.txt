@@ -1,0 +1,60 @@
+
+05-09-2020
+While loop executes the block until a condition is satisfied.
+When the condition becomes false, the statement immdeiately after
+tje loop is executed.
+The else clasue is only executed when your while condition
+becomes false, it won't be executed.
+
+If else like this:
+
+if condition:
+    #execute these statements
+
+else
+    #execute these statements
+
+====================================
+While loop like this are similar
+
+while condition:
+    #execute these statements
+
+else:
+    #execute these statements
+
+    ==========================================
+    Example:
+#python program to illstrate
+#combining else with while
+
+count= 0
+while(count < 3):
+    count=count+1
+    print("Hello Geek")
+else:
+    print("In Else Block")
+
+    ==============================================
+    Single statement while block:
+
+    If the wile block consists of a single statement then
+    we can declare the entire loop in a single line as shown
+    below:
+
+    #python program to illustrate
+    #single statement while block
+
+    count= 0
+    while (count==0) print("Hello Geek")
+
+    Note: It is suggested NOT to use this type of loop as it
+    is a never ending infinite loop where the condition is
+    always true.
+    =================================================================
+
+
+
+
+
+
