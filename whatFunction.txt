@@ -1,0 +1,22 @@
+05-15-2020
+What is a Function?
+Functions are pre-written coes that perform a certain task.
+We can call a function by typing the name of the function
+or by using the dot notion. Some functions require us ot pass
+data in for them to perform their task. These data are know as
+arguments and we pass them to the function by enclosing their
+values in parentheses(). separated by commas.
+For instance to use the print() function for displaying text
+on the screen, we call it by typing print ("Hello World")
+where print is the name of the function and Hello is the argument.
+On the other hand, to use replace() function for manipulating
+text strings, we have to type
+newString = "Hello World". replace("World, "Universe")
+Where replace is the name of the function and "World" and "Universe"
+are the arguments. The string before thd dot, "Hello World" is
+the string that will be affected.
+so "Hello World" will change to "Hello universe".
+print(newString)
+You will get Hello Universe
+
+What is a class?
