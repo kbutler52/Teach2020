@@ -1,0 +1,50 @@
+02-15-2020
+Defining your own functions
+We can define our own functions in Python and reuse them through
+out the program. The Syntax for defining a function is as
+follows:
+
+def functionName(list parameters):
+    code detailing what the function should do
+    return [expression]
+
+    There are two words here, def and return.
+
+    def tells the program that the indented code from the
+    next line onwards is part of the function.  return
+    is the keyword that we use to return an answer from the
+    function.  There can be more than one return statement
+    in a function. However, once the function executes a return
+    statement the function will exit. if your function does not
+    need to return any value, you can omit the return statement.
+    alternatively, you can write return or return None.
+
+    Let us define our first function. Suppose we want to
+    determine if a given number is a prime number. Here's
+    how we can define the function using the modulus(%) operator,
+    and the for loop and if statement.
+    Side note: What is a prime number? Prime numbers are
+    divisble only by the number 1 or itself.
+    Examplese are 2,3,7,11.
+
+    def checkIfprime(numberTocheck):
+        for x in range(2,numberTocheck):
+            if(numberTocheck%x==0):
+                return False
+        return True
+The function above has one parameter called numberTocheck
+Parameters are variables that are used to store the arguments
+that we pass to the fuction
+Lines 2 and 3 uses a for loop to divide the parmeter
+numberTocheck- 1 to determine if the remainder i szero. If the
+remainder is zero, number Tocheck is not a prime number. Line
+4 will return a fales and the function will exit.
+
+If by the last iteration of the loop, none of the division gives
+a reminder of zero, the function will reach line 5 and return True
+and the function will exit.
+
+
+
+
+

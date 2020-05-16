@@ -1,0 +1,26 @@
+05-15-2020
+Variable Scope
+An important concept to understand when defing a function
+is the concept of variable scope.Variables defined inside a
+function are treated differently that variables defined
+outside. There are two main differences.
+
+first, any variable declared inside a function is only
+accessible within the function. these are known as local
+variables. Any variable declared outside a function is known
+as global variable and is accessible anywhere in the program.
+
+To understand this try the code below:
+message1 = "Global Variable"
+
+def myFunction():
+    print("\nINSIDE THE FUNCTION")
+    #GLOBAL variables are accessible inside
+    a function
+    print((message1)
+    #Decalaring a local variable
+    message2 = "Local Variable"
+    print(message2)
+
+
+
