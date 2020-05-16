@@ -1,7 +1,15 @@
 
+#05-15-2020
 
-def add(num1,num2):
-    return num1 +num2
+def add_two(num):
+    return num+ 2
+result = add_two(2)
 
-add(1,5)
+result
+
+
+
+
+
+
 
