@@ -1,7 +1,7 @@
 
 #05-27-2020
 #this is a post test follow up from yesterday's test with william
-#Create a variable named pineapples. set pindapples to 10
+#Create a variable named pineapples. set pinepples to 10
 
 pineapples = 10
 print("I have %d pineapples." %(10))
