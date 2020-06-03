@@ -65,6 +65,37 @@ del q20[2]
 del q20[0]
 print(q20)
 
+#06-03-2020
+#question 21
+#Assign the strings 'Sun', 'Mon', 'Tue', 'Wed', 'Thurs','Fri'and 'Sat' to
+#a tuple called daysOfWeek.
+#assign the third element in daysOfWeek to a variable called myDay
+#and print the value of myDay.
+
+daysOfWeek = ['Sun','Mon','Tue','Wed','Thur','Fri','Sat']
+myDay=daysOfWeek[2]
+print(myDay)
+
+#question22
+#what is wrong with the following dictionary?
+nameAgeDict = {'John':12, 'Matthew':15, 'Aaron':13,'John':14, 'Melvin':10}
+print(nameAgeDict)
+#answer John is used in the dictionary Twice.
+
+#question 23
+#Determine the output of the following program without running the code.
+
+dict1 = {'Aaron':11, 'Betty':5, 0: 'Zero', 3.9: 'Three'}
+print(dict1['Aaron'])
+print(dict1[0])
+#rint(dict1[3:9])
+dict1['Aaron'] = 12
+print(dict1)
+
+del dict1['Betty']
+print(dict1)
+#the above did not work like the book said it
+#should, talk to William about this one on Saturday 6-6-2020
 
 
 
