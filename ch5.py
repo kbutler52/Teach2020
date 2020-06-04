@@ -33,5 +33,14 @@ in2 = int(in2)
 average = (in1 +in2) / 2
 print('The average is %.2f' %(average))
 
+#06-04-2020
+#practice
+#write a program that prompts the user to enter her name.
+#The program then prompts the uer to enter her favorvite number.
+
+name = input('Please enter your name:  ')
+favNum = input('Hi %s, What is your favorite number?: ' %(name))
+print('%s\'s favorite number is %s.' %(name,favNum))
+
 
 
