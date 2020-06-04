@@ -55,6 +55,48 @@ num1 = input('Please enter an integer:')
 num2 = input('Please enter another integer:')
 print('You entered %s and %s' %(num1,num2))
 
+#06-04-2020
+#question 8
+
+#Use the input() function twice to prompt users to enter two integers and store the
+#input into two variables called in1 and in2.
+
+#use the int() function to cast the inputs into integers and store the results
+#back into int1 an int2
+
+# Caluclate the average of the two numbers and assign the result to a variable
+#called average. The average is found by adding the two numbers and dividing
+#the result by 2
+#Use print function to display the message
+# The average is *
+
+
+
+
+
+
+in1= input('Enter a integer: ')
+in2 = input('Enter a second integer: ')
+
+in1 = int(in1)
+in2 = int(in2)
+
+average = (in1 + in2) /2
+print('The average is %.2f' %(average))
+
+#question 9
+#write a program that prompts the user to enter his/her name.
+#The program then prompts the user to enter his/her favorite number
+#using the prompt below:
+#Hi Kyla, what is your favorite number?:
+#Finally, the program displays the message
+#Kyla's favorite number is
+
+name = input('What is your name?: ')
+favNum = input('Hi %s, What is your favorite Number?: '  %(name))
+print('%s\'s favorite number is %s.' %(name, favNum))
+
+
 
 
 

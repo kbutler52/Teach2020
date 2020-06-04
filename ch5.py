@@ -21,5 +21,17 @@ num5 = input('Enter integer: ')
 num6 = input('Enter a second integer: ')
 print('You have entered %s and %s.' %(num5,num6))
 
+#06-04-2020
+#practice eamples from chapter 5 question 8
+
+#use the input () function twice
+
+in1 = input('Please enter an integer:  ')
+in2 = input('Sorry to bother you , but can you please enter another integer:  ')
+in1 = int(in1)
+in2 = int(in2)
+average = (in1 +in2) / 2
+print('The average is %.2f' %(average))
+
 
 
