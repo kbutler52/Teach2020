@@ -100,5 +100,3 @@ print('%s\'s favorite number is %s.' %(name, favNum))
 
 
 
-
-
